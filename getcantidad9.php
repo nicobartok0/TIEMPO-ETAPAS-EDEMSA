@@ -1,4 +1,5 @@
 <?php
+ini_set('max_execution_time', 0);
 header('Content-Type: application/json; charset=utf-8');
 require_once "Api.class.php";
 $end_9 = Api::post('expedientes/nico/test9');

@@ -1,61 +1,7 @@
 <?php
     //Importar la clase de la API para vincular con los endpoints.
     require_once "Api.class.php";
-/*
-    //Definir variables de vinculación con los endpoints, cantidades por etapa y promedio de tiempo por etapa
-    //Etapa 0
-    
 
-    //Etapa 1
-    $end_1 = Api::post('expedientes/nico/test1');
-    $cantidad_1 = $end_1->result->cantidad;
-    $promedio_1 = $end_1->result->promedio;
-
-    //Etapa 2
-    $end_2 = Api::post('expedientes/nico/test2');
-    $cantidad_2 = $end_2->result->cantidad;
-    $promedio_2 = $end_2->result->promedio;
-
-    //Etapa 3
-    $end_3 = Api::post('expedientes/nico/test3');
-    $cantidad_3 = $end_3->result->cantidad;
-    $promedio_3 = $end_3->result->promedio;
-
-    //Etapa 4
-    $end_4 = Api::post('expedientes/nico/test4');
-    $cantidad_4 = $end_4->result->cantidad;
-    $promedio_4 = $end_4->result->promedio;
-
-    //Etapa 4A
-    $end_4a = Api::post('expedientes/nico/test4a');
-    $cantidad_4a = $end_4a->result->cantidad;
-    $promedio_4a = $end_4a->result->promedio;
-
-    //Etapa 5
-    $end_5 = Api::post('expedientes/nico/test5');
-    $cantidad_5 = $end_5->result->cantidad;
-    $promedio_5 = $end_5->result->promedio;
-
-    //Etapa 6
-    $end_6 = Api::post('expedientes/nico/test6');
-    $cantidad_6 = $end_6->result->cantidad;
-    $promedio_6 = $end_6->result->promedio;
-
-    //Etapa 7
-    $end_7 = Api::post('expedientes/nico/test7');
-    $cantidad_7 = $end_7->result->cantidad;
-    $promedio_7 = $end_7->result->promedio;
-
-    //Etapa 8
-    $end_8 = Api::post('expedientes/nico/test8');
-    $cantidad_8 = $end_8->result->cantidad;
-    $promedio_8 = $end_8->result->promedio;
-
-    //Etapa 9
-    $end_9 = Api::post('expedientes/nico/test9');
-    $cantidad_9 = $end_9->result->cantidad;
-    $promedio_9 = $end_9->result->promedio;
-*/
 ?>
 
 <html>

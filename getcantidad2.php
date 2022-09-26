@@ -1,4 +1,5 @@
 <?php
+
 header('Content-Type: application/json; charset=utf-8');
 require_once "Api.class.php";
 $end_2 = Api::post('expedientes/nico/test2');

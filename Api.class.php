@@ -1,5 +1,6 @@
 <?php
-
+ini_set('max_execution_time', 0);
+ini_set('default_socket_timeout', 900);
 class Api {
 
     public static function post($endpoint, array $data = []) {
