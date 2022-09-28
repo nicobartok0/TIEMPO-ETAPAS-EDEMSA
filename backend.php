@@ -39,13 +39,13 @@
             </tr>
             <tr>
                 <td>
-                    <button>Más detalles</button>
+                    <a href="detalles/etapa0.php">Más detalles</a>
                 </td>
                 <td>
-                    <button>Más detalles</button>
+                    <a href="detalles/etapa1.php">Más detalles</a>
                 </td>
                 <td>
-                    <button>Más detalles</button>
+                    <a href="detalles/etapa2.php">Más detalles</a>
                 </td>
             </tr>
             <tr>
@@ -73,13 +73,13 @@
             </tr>
             <tr>
                 <td>
-                    <button>Más detalles</button>
+                    <a href="detalles/etapa3.php">Más detalles</a>
                 </td>
                 <td>
-                    <button>Más detalles</button>
+                    <a href="detalles/etapa4.php">Más detalles</a>
                 </td>
                 <td>
-                    <button>Más detalles</button>
+                    <a href="detalles/etapa4a.php">Más detalles</a>
                 </td>
             </tr>
             <tr>
@@ -108,13 +108,13 @@
             </tr>
             <tr>
                 <td>
-                    <button>Más detalles</button>
+                    <a href="detalles/etapa5.php">Más detalles</a>
                 </td>
                 <td>
-                    <button>Más detalles</button>
+                    <a href="detalles/etapa6.php">Más detalles</a>
                 </td>
                 <td>
-                    <button>Más detalles</button>
+                    <a href="detalles/etapa7.php">Más detalles</a>
                 </td>
             </tr>
             <tr>
@@ -137,10 +137,10 @@
             </tr>
             <tr>
                 <td>
-                    <button>Más detalles</button>
+                    <a href="detalles/etapa8.php">Más detalles</a>
                 </td>
                 <td>
-                    <button>Más detalles</button>
+                    <a href="detalles/etapa9.php">Más detalles</a>
                 </td>
             </tr>
         </table>
@@ -157,8 +157,8 @@ function data_call(endpoint,clase){
                 console.log(data);
                 console.log("." + clase + "c");
                 
-                $("." + clase + "c").text(data.promedio);
-                $("." + clase + "p").text(data.cantidad);
+                $("." + clase + "c").text(data.cantidad);
+                $("." + clase + "p").text(data.promedio);
             }
         });
 }
